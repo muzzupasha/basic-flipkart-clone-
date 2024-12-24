@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    height: 50px;
+    background-color: var(--main-bg-color);
+    color: rgb(250, 235, 215);
+    font-family: "Roboto Condensed", sans-serif;
+}
+header{
+    height: 12vh;
+  background:var(--main-bg-color);
+ 
+}
+nav ul li{
+    list-style: none;
+    
+    padding: 23px;
+
+}
+nav ul li a{
+   color: rgb(223, 215, 250);
+   text-decoration: none;
+    
+}
+nav ul li a:hover{
+   /* color: rgb(26, 11, 84); */
+   font-weight: bolder;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 0 25px;
+}
+.cont{
+    min-height: calc(100vh - 50px - 12vh);
+}
+.search{
+    display: flex;
+    align-items: start;
+    margin: 15px;
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 2px;
+    margin:0 23px;
+}
+.buttom{
+    padding:0 12px;
+}
+.slider{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50vw;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.card-items{
+ 
+    width: 16vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 12px;
+   
+
+}
+.card{
+    background-color: whitesmoke;
+    max-width: 91vw;
+    margin: auto;
+}
+.card h1{
+    font-family: "Roboto Condensed", sans-serif;
+   font-size: medium;
+   margin: 17px;
+   
+}
+.tex-center{
+  text-align: end;
+
+}
+.card-items:hover{
+    transition: ease-in-out;
+   
+}
+.card{
+  
+   
+  
+}
